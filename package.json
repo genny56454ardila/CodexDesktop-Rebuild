@@ -63,7 +63,7 @@
     "zod": "^4.1.13"
   },
   "optionalDependencies": {
-    "@cometix/codex": "^0.128.0-cometix"
+    "@cometix/codex": "latest"
   },
   "codexBuildFlavor": "prod",
   "codexBuildNumber": "1272",
