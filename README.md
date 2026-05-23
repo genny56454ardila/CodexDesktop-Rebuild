@@ -61,6 +61,8 @@ GitHub Actions automatically builds on:
 
 I'm using this primarily on Linux x64. If you're in the same boat, `npm run build:linux-x64` is all you need — no reason to run `build:all` unless you're distributing to others.
 
+> **Tip:** If the app window opens blank on first launch, try toggling the devtools once (`Ctrl+Shift+I`) and closing them — seems to kick the renderer into gear. Haven't tracked down the root cause yet.
+
 ## Credits
 
 **© OpenAI · Cometix Space**
