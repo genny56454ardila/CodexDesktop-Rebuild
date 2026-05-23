@@ -63,6 +63,8 @@ I'm using this primarily on Linux x64. If you're in the same boat, `npm run buil
 
 > **Tip:** If the app window opens blank on first launch, try toggling the devtools once (`Ctrl+Shift+I`) and closing them — seems to kick the renderer into gear. Haven't tracked down the root cause yet.
 
+> **Note to self:** On my Arch setup I had to install `libgtk-3-0` and `libnss3` before the packaged app would launch. `sudo pacman -S gtk3 nss` sorted it.
+
 ## Credits
 
 **© OpenAI · Cometix Space**
