@@ -69,7 +69,19 @@ module.exports = {
         iconUrl: "https://raw.githubusercontent.com/Haleclipse/CodexDesktop-Rebuild/master/resources/electron.ico",
       },
     },
-    { name: "@electron-forge/maker-zip", platforms: ["win32"] },
+    // linux zip for easy distribution without needing a package manager
+    { name: "@electron-forge/maker-zip", platforms: ["linux"] },
     {
       name: "@electron-forge/maker-deb",
-      config: { options: { name: "codex", productName: "Codex", genericName: "AI Cod
+      config: {
+        options: {
+          name: "codex",
+          productName: "Codex",
+          maintainer: "Haleclipse",
+          homepage: "https://github.com/Haleclipse/CodexDesktop-Rebuild",
+          icon: "./resources/electron.png",
+        },
+      },
+    },
+  ],
+};
