@@ -57,6 +57,10 @@ GitHub Actions automatically builds on:
 - Push to `master`
 - Tag `v*` → Creates draft release
 
+## Notes (personal fork)
+
+I'm using this primarily on Linux x64. If you're in the same boat, `npm run build:linux-x64` is all you need — no reason to run `build:all` unless you're distributing to others.
+
 ## Credits
 
 **© OpenAI · Cometix Space**
